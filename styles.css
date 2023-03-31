@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+button:hover {
+  transition-duration: 5ms;
+  background-image: linear-gradient(rgb(0 0 0/20%) 0 0);
+}
+
 .calc-container {
   border: 1px solid black;
   border-radius: 5px;
